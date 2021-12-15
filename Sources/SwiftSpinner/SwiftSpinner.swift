@@ -494,7 +494,7 @@ public class SwiftSpinner: UIView {
     public func updateFrame() {
         if let containerView = SwiftSpinner.containerView() {
             SwiftSpinner.shared.frame = containerView.bounds
-            containerView.bringSubviewToFront(SwiftSpinner.shared)
+            containerView.bringSubview(toFront: SwiftSpinner.shared)
         }
     }
 
